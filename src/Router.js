@@ -8,8 +8,10 @@ import Home from "./Components/Home/Home";
 import Signup from "./Components/LoginSignup/Signup";
 import HomePage from "./Screens/HomePage";
 import ErrorPage from "./Components/error-page";
+import Profile from "./Components/Profile/profile";
 import { Navigate } from "react-router-dom";
 import { useAuth } from "./utils/auth";
+import Edit from "./Components/Edit page/edit";
 
 export const RequireAuth = ({ children }) => {
     const { authenticated } = useAuth();
@@ -37,7 +39,16 @@ const router = createBrowserRouter([
     {
         path: "/dashboard",
         element: <RequireAuth><HomePage /></RequireAuth>,
+    },
+    {
+        path:"/profilepage",
+        element: <Profile/>
+    },
+    {
+        path:"editpage",
+        element:<Edit/>
     }
+
 
 ]);
 
