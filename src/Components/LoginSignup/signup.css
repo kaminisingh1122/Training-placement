@@ -1,0 +1,106 @@
+.card {
+    width: auto;
+
+}
+.registration-form {
+    margin: 4% 23%;
+}
+.signup-form{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 700px;
+    height: auto;
+}
+
+.signup {
+    display: flex; 
+}
+
+.signup >.signup-left>h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signup-left{
+    border-right: 1px solid black ;
+    padding: 0 1vmax;
+}
+
+.signup-right{
+    padding: 0 2.5vmax;
+}
+
+.signup-right>h3{
+    text-align: center;
+    font-weight: 600;
+    font-family: Jockey One;
+}
+
+.signup-right>div{
+    padding: 0.5vmax 0;
+}
+.signup-right>div>label{
+    padding-right: 40px;
+}
+.signup-right>div>input{
+    margin-top: 4px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 2px 8px;
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signup-right>div>select{
+    margin-top: 4px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 2px 8px;
+    width: 90%;
+    border: 1.5px solid rgb(85, 85, 85);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signup-right>div>button{
+    margin-left:100px;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+.signup-right>div>button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.signup-right>p{
+    /* width: 100%; */
+    font-style: italic;
+    text-align: center;
+}
+.signup-right>p>a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+
+.signup-right>p>a:hover{
+    color: rgb(26, 26, 26);
+}
+
+h6 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-style: italic;
+ } 
+ 
+ h6 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+ .googleSignInButton{
+    background-color: aquamarine;
+ }
